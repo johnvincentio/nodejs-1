@@ -16,7 +16,7 @@ const myPromise = new Promise((resolve, reject) => {
     try {
         setTimeout(() => {
             // log here so we can see when this actually executes
-            console.log(`${order}: myPromise\'s async work executing`),
+            console.log(`${order}: myPromise\'s async work executing`);
                 // resolve with a value that we can access in a `.then` block below
                 resolve('Surprise!');
         }, 3000);

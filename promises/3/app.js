@@ -17,8 +17,6 @@ const myFailingPromise = new Promise((resolve, reject) => {
     }, 2000);
 });
 
-
-
 myFailingPromise
     .then(result => {
         console.log(`myFailingPromise: it\'s a miracle if this runs: ${result}`);
