@@ -1,6 +1,6 @@
 /* jshint node: true */
 /* jshint esnext: true */
-/*jshint multistr: true */
+/* jshint multistr: true */
 
 'use strict';
 

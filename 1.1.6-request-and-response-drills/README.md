@@ -10,12 +10,29 @@ npm install body-parser --save
 http://localhost:8080?adjective1=red&adjective2=spikey&adjective3=effective&adverb=rapidly&name=Joe&noun=bungee%20cord&place=Kansas
 
 
-##hyperdev-a-b-test
+##drill-2
 
 Installed cookie-parser
 
+ref:
+https://github.com/expressjs/cookie-parser
+
+
 ```
-npm install cookie-parser --save-dev
+npm install cookie-parser --save
+```
+
+### List Cookies
+
+```
+function listCookies() {
+    var theCookies = document.cookie.split(';');
+    var aString = '';
+    for (var i = 1; i <= theCookies.length; i++) {
+        aString += i + ' ' + theCookies[i - 1] + "\n";
+    }
+    return aString;
+}
 ```
 
 ###Test using curl
