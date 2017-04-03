@@ -12,9 +12,7 @@ const express = require('express');
 const app = express();
 
 app.get('/:foo/:bar', (req, res) => {
-    const {
-        foo, bar
-    } = req.params;
+    const {foo, bar} = req.params;
     res.json({
         foo: foo,
         bar: bar
