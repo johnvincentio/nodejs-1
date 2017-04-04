@@ -1,8 +1,6 @@
-#Unit Testing with Mocha and Chai
+# Unit Testing with Mocha and Chai
 
 ```
-/Users/jv/Desktop/MyDevelopment/github/nodejs-1/mocha-chai/1
-
 mkdir mocha-chai-demo && cd mocha-chai-demo && npm init -y
 npm install --save-dev mocha
 echo "module.exports = function(a, b) {return a === b}" >> isEqual.js
